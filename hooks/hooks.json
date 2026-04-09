@@ -1,0 +1,48 @@
+{
+  "hooks": {
+    "BeforeTool": [
+      {
+        "matcher": "mcp_cercano_cercano_deep_research|mcp_cercano_cercano_research",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Cercano: researching locally...' >&2",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "mcp_cercano_cercano_summarize",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Cercano: summarizing locally...' >&2",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "AfterTool": [
+      {
+        "matcher": "mcp_cercano_cercano_deep_research|mcp_cercano_cercano_research",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Cercano: research complete' >&2",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "mcp_cercano_cercano_summarize",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Cercano: summarization complete' >&2",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

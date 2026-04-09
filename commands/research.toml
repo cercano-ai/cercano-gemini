@@ -1,0 +1,2 @@
+description = "Research a topic using Cercano's local AI pipeline"
+prompt = "Use cercano_research to investigate: {{args}}"

@@ -1,0 +1,19 @@
+{
+  "name": "cercano",
+  "version": "0.9.0",
+  "description": "Local-first AI co-processor — offload research, summarization, extraction, and more to local models via Ollama",
+  "mcpServers": {
+    "cercano": {
+      "command": "cercano",
+      "args": ["--mcp"]
+    }
+  },
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Ollama URL",
+      "description": "URL of the Ollama instance (default: http://localhost:11434)",
+      "envVar": "OLLAMA_URL"
+    }
+  ]
+}

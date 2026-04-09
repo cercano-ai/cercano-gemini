@@ -1,0 +1,2 @@
+description = "Fetch and extract text from a URL locally"
+prompt = "Use cercano_fetch to get the content of: {{args}}"
