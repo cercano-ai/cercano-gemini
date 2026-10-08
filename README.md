@@ -4,7 +4,7 @@ Local-first AI co-processor for Gemini CLI. Offload research, summarization, ext
 
 ## Prerequisites
 
-- [Cercano](https://github.com/cercano-ai/Cercano) installed and on your PATH (`brew install cercano-ai/tap/cercano`)
+- [Cercano](https://github.com/cercano-ai/Cercano) installed and on your PATH (`brew install cercano-ai/cercano/cercano`)
 - [Ollama](https://ollama.com/) running with at least one model pulled
 
 ## Install
